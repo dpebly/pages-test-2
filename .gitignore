@@ -1,0 +1,7 @@
+# Jekyll build
+build/
+
+# packages
+node_modules/
+
+*.bak

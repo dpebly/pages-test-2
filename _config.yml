@@ -1,0 +1,24 @@
+# Site settings
+title: Daniel Pebly
+email: dpebly@gmail.com
+description: >-
+  Daniel Pebly is a frontend web developer.
+baseurl: ''
+url: 'https://danielpebly.com'
+
+# Build settings
+markdown: kramdown
+destination: build
+permalink: /blog/:categories/:year/:month/:day/:title/
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - webpack/
+  - _src/
+  - package.json
+  - package-lock.json
+  - .gitignore
+
